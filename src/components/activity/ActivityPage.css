@@ -1,0 +1,91 @@
+/* General styling for the activity page container */
+.activity-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  overflow: scroll;
+  scrollbar-width:none;
+}
+
+/* Styling for section headings */
+.section h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color:white;
+}
+
+/* Styling for individual posts */
+.post {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for user information */
+.user-info {
+  margin-bottom: 10px;
+}
+
+.posted-by {
+  font-weight: bold;
+  color: #777;
+}
+
+/* Styling for the content (image or video) */
+.content {
+  margin-bottom: 10px;
+}
+
+.content img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.content video {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+/* Styling for the caption */
+.caption {
+  margin-bottom: 10px;
+  color: #444;
+}
+
+/* Styling for the like, comment, and share buttons */
+.post-buttons button {
+  border: none;
+  background: none;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+/* Styling for the icons */
+.post-buttons button svg {
+  margin-right: 5px;
+}
+
+/* Styling for the comments section */
+.comments-section {
+  margin-top: 20px;
+}
+
+.comments-section h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #333;
+}
+
+.comment {
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.comment p {
+  margin: 0;
+  color: #555;
+}
