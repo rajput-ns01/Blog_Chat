@@ -16,15 +16,23 @@ body{
 }
 
 .container{
-  width: 95vw;
-  height: 95vh;
+  width:99.5vw;
+  height: 100vh;
+  margin-bottom: 70px;
+  margin-top: 70px;
   background-color: rgba(17,25,40,0.75);
   backdrop-filter: blur(19px) saturate(180%);
   border-radius: 12px;
   border: 1px solid rgba(255,255,255,0.125);
-  display: flex;
+  overflow-y: scroll;
 }
 
+@media screen and(max-width:768px) {
+  .container{
+    width: 100vw;
+    height: 100vh;
+  }
+}
 .loading{
   padding: 50px;
   font-size: 36px;

@@ -191,8 +191,7 @@ const Chat = () => {
                         <img src="./img.png" alt="" />
                     </label>
                     <input type="file" id="file" style={{ display: "none" }} onChange={handleImg} />
-                    <img src="./camera.png" alt="" />
-                    <img src="./mic.png" alt="" />
+                    
                 </div>
                 <input type="text" placeholder={(isCurrentUserBlocked || isReceiverBlocked) ? "You cannot send a message" : "Type a message..."}
                     value={text}
